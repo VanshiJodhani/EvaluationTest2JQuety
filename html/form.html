@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/form.css">
+        <script src="../jQuery/jquery.min.js"></script>
+        <script src="../jQuery/jquery.validate.min.js"></script>
+        <script src="../jQuery/additional-methods.js"></script>
+        <script src="../jQuery/form.js"></script>
+    </head>
+
+    <body>
+
+        <div class="form1">
+<!--Coustmer Details-->
+        <div class="heading">Cousmer Details:</div>
+        <br><hr><br>
+
+<!--form-->
+        <form name="myform" id="myform" method="post" action="../html/table.html">
+
+<!--Full name-->
+        <div class="name">Full Name <span style="color:red;">*</span>
+          <table class="table1">
+            <tr>
+              <td><input type="text" id="fname" name="fname"></td>
+            </tr>
+            <tr>
+              <td><label class="label1" for="fname">First Name</label><br></td>
+            </tr>       
+          </table>
+        </div>                  
+
+<!--Age--><br><br>                    
+        <div class="name">Age <span style="color:red;">*</span><br>
+          <select class="t1" name="age" id="age"></select>
+      </div>
+
+<!--phone number--><br><br>                    
+            <div class="name">Phone Number <span style="color:red;">*</span>
+              <input type="text" id="phone" name="phone" placeholder="(000) 000-0000"><br>
+            </div>
+        
+<!--E-mail--><br><br>                    
+            <div class="name">E-mail</div>
+              <input class="t1" type="email" id="e_mail" name="e_mail" placeholder="ex: email@tntra.io"><br>
+              <label for="e_mail">example@example.com</label>
+
+<!--gender--><br><br>                    
+            <div class="gender">
+              <p class="name">Gender : 
+              <input type="radio" class="male1" id="male" name="male01" value="Male">
+              <label class="name" for="male">Male</label>
+              <input type="radio" class="male1" id="female" name="male01" value="Female">
+              <label class="name" for="female">Female</label>
+              <input type="radio" class="male1" id="other"  name="male01" value="Other">
+              <label class="name" for="other">Other</label></p>
+            </div>
+
+<!--Next day-->                  
+<hr><br><br>
+          <div>
+            <input type="checkbox" id="box" name="box">
+            <label class="box" for="box">NEXT-DAY CONFIGURATION</label>
+            <br>
+            <table class="table6">
+              <tr>
+                <td>
+                  <input type="checkbox" id="box1" name="box1" class="box">
+                  <label class="box1" for="box1">Sunday</label>
+                </td>
+                <td><select id="box11" name="box11" class="box1" ></select></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" id="box2" name="box2" class="box">
+                  <label class="box2" for="box2">Monday</label>
+                </td>
+                <td><select id="box21" name="box21" class="box2"></select></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" id="box3" name="box3" class="box">
+                  <label class="box3" for="box3">Tuesday</label>
+                </td>
+                <td><select id="box31" name="box31" class="box3"></select></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" id="box4" name="box4" class="box">
+                  <label class="box4" for="box4">Wednesday</label>
+                </td>
+                <td><select id="box41" name="box41" class="box4"></select></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" id="box5" name="box5" class="box">
+                  <label class="box5" for="box5">Thursday</label>
+                </td>
+                <td><select id="box51" name="box51" class="box5"></select></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" id="box6" name="box6" class="box">
+                  <label class="box6" for="box6">Friday</label>
+                </td>
+                <td><select id="box61" name="box61" class="box6"></select></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" id="box7" name="box7" class="box">
+                  <label class="box7" for="box7">Saturday</label>
+                </td>
+                <td><select id="box71" name="box71" class="box7"></select></td>
+              </tr>
+            </table>
+          </div>    
+
+<!--submit--><br><br>                    
+            <button class="box"  type="submit" value="submit" id="submit" onclick="passvalues()">Submit</button>
+
+        </form>
+        </div>        
+    </body>
+</html>

@@ -1,0 +1,98 @@
+body{
+background-color: aqua;
+}
+.form1{
+    width: 85%;
+    background-color: pink;
+    margin: auto;
+}
+form{
+  padding: 30px;
+}
+/*Coustmer Details*/
+.heading{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* form */
+/*full name*/
+.name{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .span1{
+    color: red;
+    font-size: 15px;
+}
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 15px;
+} 
+
+/*textbox*/
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=text]:hover {
+    border-color: blue;
+}
+
+/*How did you here about us?*/
+/*select*/
+.t1:hover {
+    border-color: blue;
+    box-shadow: #4CAF50; 
+}
+textarea{
+    width: 100%;
+    height: 180px;
+}
+
+
+/*submit*/
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+/*days*/
+
+.table6 {
+  border-collapse: collapse;
+  width: 100%;
+} 
+
+/*next page table*/
+.table_all{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+}
+.table_all th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table_all td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+label.error{
+  color: red;
+  font-size: 20px;
+}
